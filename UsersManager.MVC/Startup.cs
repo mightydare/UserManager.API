@@ -27,7 +27,7 @@ namespace UsersManager.MVC
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello 123213123!");
+                await context.Response.WriteAsync("Hello  ASDASDASd DARKO !");
             });
         }
     }
