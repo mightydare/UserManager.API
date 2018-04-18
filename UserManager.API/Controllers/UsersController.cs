@@ -4,20 +4,21 @@ using Microsoft.AspNetCore.Mvc;
 namespace UserManager.API.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class UsersController : Controller
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("")]
+        public IEnumerable<string> FindAllUsers()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string FindSpecificUser(int id)
         {
-            return "value";
+            return "test";
         }
 
         // POST api/values
