@@ -13,6 +13,7 @@
         public int Age { get; set; }
         public int Index { get; set; }
 
+        
         public bool IsRetired()
         {
             return Age > 65;

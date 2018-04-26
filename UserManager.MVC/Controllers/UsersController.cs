@@ -17,9 +17,36 @@ namespace UserManager.MVC.Controllers
                 new User("Ivan", "Stojanov")
                 {
                     Age = 22,
-                    Index = 10,
+                    Index = 10232,
+                },
+                new User ("Darko" , "Stojanov")
+                {
+                    Age=32,
+                    Index = 123123,
+                },
+                new User("Ivan", "Stojanov")
+                {
+                    Age = 22,
+                    Index = 10232,
+                },
+                new User ("Darko" , "Stojanov")
+                {
+                    Age=32,
+                    Index = 123123,
+                },
+                new User("Ivan", "Stojanov")
+                {
+                    Age = 22,
+                    Index = 10232,
+                },
+                new User ("Darko" , "Stojanov")
+                {
+                    Age=32,
+                    Index = 123123,
                 }
             };
+
+           
         }
 
         // GET: api/Users/5

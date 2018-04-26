@@ -18,4 +18,4 @@ interface User {
     surname: string;
     age: number;
     index: number;
-}
+}       
