@@ -1,0 +1,28 @@
+﻿<template>
+    <h1>  Users  </h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th> Name </th>
+                <th> Surname </th>
+                <th> Age </th>
+                <th> Index </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr repeat.for="user of users">
+                <td>${user.name}</td>
+                <td>${user.surname}</td>
+                <td>${user.age}</td>
+                <td>${user.index}</td>
+            </tr>
+
+
+        </tbody>
+
+        
+
+    </table>
+</template>
